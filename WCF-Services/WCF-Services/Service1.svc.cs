@@ -19,7 +19,7 @@ namespace WCF_Services
         public string obtenerTasaCambio(string pMoneda)
         {
             SqlConnection ocon = new SqlConnection("Data Source=.\;Initial Catalog=RMDB;Integrated Security=True");
-            return "";
+            return "testing";
         }
     }
 }
